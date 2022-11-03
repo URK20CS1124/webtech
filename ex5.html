@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="Style.css">
+    <script src="home.js"></script>
+    <title>Loan EMI Calculator</title>
+</head>
+
+<body>
+    
+    <div class="container border border-primary">
+
+        <div class="row">
+            <div class="col-4"></div>
+    
+            <div class="col-4 p-0" >
+            <h3 class="text-primary">Loan EMI Calculator</h3>
+            <br>
+    
+            
+            <label class="text-primary">Loan Amount(Rs):</label><br>
+            <input type="text" style="width: 100% ;" name="Loan Amount" id="LA" onkeyup="fun()">
+    
+            <br>
+    
+            <label class="text-primary">Annual Interest Rate(%):</label><br>
+            <input type="text"  style="width: 100% ;" name="Annual Interest Rate" id="AIR" onkeyup="fun()">
+    
+            <br>
+    
+            <label class="text-primary">Tenure(Years):</label><br>
+            <input type="text" style="width: 100% ;" name="Tenure" id="T" onkeyup="fun()">
+        
+            </div>
+            <div class="col-4"></div>
+        </div>
+        
+        <br>
+    
+        <div class="row ">
+            <div class="col-4"></div>
+            <div id="o1" class="bg-primary rounded col-4 mb-2"></div>
+            <div class="col-4"></div>
+        </div>
+    
+        <div class="row">
+            <div class="col-4"></div>
+            <div id="o2" class="bg-primary rounded col-4 mb-2"></div>
+            <div class="col-4"></div>
+        </div>
+    
+        <div class="row">
+            <div class="col-4"></div>
+            <div id="o3" class="bg-primary rounded col-4 mb-2"></div>
+            <div class="col-4"></div>
+        </div>
+    
+        <div class="row">
+            <div class="col-4"></div>
+            <div id="o4" class="bg-primary rounded col-4 mb-2"></div>
+            <div class="col-4"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
